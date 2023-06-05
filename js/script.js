@@ -3,7 +3,7 @@ console.log("4-obsluga-formularza-imie-i-nazwisko");
 const submitForm = (event) => {
     event.preventDefault();
 
-    let firstName = document.querySelector('[name="fName"]');
+    let firstName = document.querySelector('[name="fname"]');
     let lastName = document.querySelector('[name="lname"]');
 
     
